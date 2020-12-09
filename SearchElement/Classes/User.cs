@@ -30,7 +30,7 @@ namespace SearchElement.Classes
         [Required]
         public byte state { get; set; }
 
-        [NonSerialized]
+        [NotMapped]
         public Gender gender;
     }
 }
